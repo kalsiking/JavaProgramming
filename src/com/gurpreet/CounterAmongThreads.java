@@ -25,6 +25,9 @@ public class CounterAmongThreads implements Runnable{
             incrementCounter();
         }
     }
+
+
+
     public static void main(String... ar){
         CounterAmongThreads ob1 = new CounterAmongThreads();
         Thread ob2 = new Thread(ob1);
